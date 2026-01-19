@@ -17,7 +17,6 @@ export default function Dashboard() {
 
   const { user, logout, isLoading } = useAuth();
   const {
-    isHistoryLoading,
     generateThumbnail,
     thumbnails,
     deleteThumbnail,
