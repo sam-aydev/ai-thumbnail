@@ -81,7 +81,7 @@ export default function Dashboard() {
           <button
             disabled={generatingThumbnail}
             onClick={() => generateThumbnail({ title, style })}
-            className="cursor-pointer bg-brand-yellow text-black font-bold px-8 py-4 rounded-xl hover:bg-yellow-400 transition disabled:opacity-50 disabled:cursor-not-allowed flex items-center justify-center gap-2 min-w-[140px]"
+            className="cursor-pointer bg-brand-yellow text-black font-bold px-8 py-4 rounded-xl hover:bg-yellow-400 transition disabled:opacity-50 disabled:cursor-not-allowed flex items-center justify-center gap-2 min-w-35"
           >
             {generatingThumbnail ? (
               <span className="animate-pulse">Creating</span>
