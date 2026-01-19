@@ -44,7 +44,6 @@ export const useAuth = () => {
     },
     onSuccess: () => {
       toast.success("Account created! Please login.");
-      window.location.reload();
     },
     onError: (error: any) => {
       toast.error(error.response?.data?.message || "signup failed!");
