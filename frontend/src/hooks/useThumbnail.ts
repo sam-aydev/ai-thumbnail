@@ -1,6 +1,5 @@
 import { useMutation, useQuery, useQueryClient } from "@tanstack/react-query";
-import { api, type Thumbnail, type User } from "../lib/api";
-import { useNavigate } from "react-router-dom";
+import { api, type Thumbnail} from "../lib/api";
 import { toast } from "react-toastify";
 
 export const useThumbnail = () => {
